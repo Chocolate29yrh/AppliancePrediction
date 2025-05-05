@@ -53,3 +53,8 @@
 2025-05-05 16:42:07,823 INFO: Request to /static/images/sustech_logo.png took 0.00s [in D:\1yrh\PythonProject\AppliancePrediction\api\app.py:43]
 2025-05-05 16:42:08,614 INFO: Request to /static/script.js took 0.00s [in D:\1yrh\PythonProject\AppliancePrediction\api\app.py:43]
 2025-05-05 16:42:20,801 INFO: Request to /predict took 0.13s [in D:\1yrh\PythonProject\AppliancePrediction\api\app.py:43]
+2025-05-05 17:21:41,341 INFO: Request to / took 0.02s [in D:\1yrh\PythonProject\AppliancePrediction\api\app.py:44]
+2025-05-05 17:21:41,500 INFO: Request to /static/images/LOGO.png took 0.12s [in D:\1yrh\PythonProject\AppliancePrediction\api\app.py:44]
+2025-05-05 17:21:41,509 INFO: Request to /static/images/sustech_logo.png took 0.12s [in D:\1yrh\PythonProject\AppliancePrediction\api\app.py:44]
+2025-05-05 17:21:42,187 INFO: Request to /static/script.js took 0.00s [in D:\1yrh\PythonProject\AppliancePrediction\api\app.py:44]
+2025-05-05 17:21:49,303 INFO: Request to /predict took 0.18s [in D:\1yrh\PythonProject\AppliancePrediction\api\app.py:44]
