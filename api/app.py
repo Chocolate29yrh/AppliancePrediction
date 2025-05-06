@@ -7,8 +7,6 @@ import logging
 from logging.handlers import RotatingFileHandler
 import time
 import psutil
-
-
 # 配置日志
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -87,5 +85,9 @@ def predict():
         logger.error(f'Prediction error: {str(e)}')
         return jsonify({'status': 'error', 'message': str(e)})
 
+# if __name__ == '__main__':
+#     app.run(debug=True)
 if __name__ == '__main__':
-    app.run(debug=True)
+    import os
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=True)
